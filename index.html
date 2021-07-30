@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 3 Fav games</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+          h1{
+              color: rgb(250, 248, 160);
+
+
+          }
+
+        body{
+            font-family: 'Zen Tokyo Zoo', cursive;
+            
+        }
+        .container{
+            display:grid;
+            height: 100vh;
+            grid-template-rows: 310px 75px auto 50px;
+        }
+         .header{ 
+             background-image: url("https://cdn.wallpapersafari.com/2/33/FKN6zQ.jpg");
+             background-size: cover;
+            background-position: 5% 30%;
+         }
+
+
+.quote{
+
+    background-color:lightseagreen;
+font-size: 20px;
+text-align: center;
+}
+
+.gallery{
+    background-color: lightyellow;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.image,img{
+width: 300px;
+height:200px;
+padding-top:10px;
+
+}
+.image{
+    transition:transform 25 ease 0.5s;
+}
+.image:hover{
+    transform: rotate(25deg) scale(0.5);
+}
+@keyframes colorshow {
+    0%{
+        background-color:red;
+    }
+    25%{
+        background-color: orange;
+    }
+    35%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: green;
+    }
+    70%{
+        background-color: cyan;
+    }
+    100%{
+        background-color: lavender;
+    }
+}
+.footer{
+    background-color: lightpink;
+    animation-name: colorshow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    color: linen;
+}
+
+
+        </style>  
+</head>
+<body>
+   <div class="container">
+       <div class="header"><h1> Top 3 Games</h1></div>
+       <div class="quote">
+           <p>Life May Not Give You All The Gifts You Were Hoping For,But Your Real Gift Is Life Itself.</p>
+       </div>
+       <div class="gallery">
+           <div class="image 1">
+               <a href="https://www.roblox.com/" target="_blank"><img src="https://i5.walmartimages.com/dfw/4ff9c6c9-2bde/k2-_821a1f42-f945-406c-9953-3b440484a2af.v1.jpg?odnWidth=1360&odnHeight=410&odnBg=ffffff "> </a>
+            </div>
+               <div class="image 2">
+                <a href="https://www.lego.com/assets/franchiseSites/Ninjago/primeempire/index.html?locale=en-us" target="_blank"><img src="https://i.pinimg.com/originals/dc/f7/65/dcf765d859339bab6a27c966ef3f6e5c.jpg "> </a>
+      
+    </div>
+            <div class="image 3">
+              <a href="https://www.minecraft.net/en-us/download" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png"> </a>
+</div>
+</div>
+<div class="footer"><h3> Website Designed by Anhad</h3></div>
+
+
+</body>
+</html>
